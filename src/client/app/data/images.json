@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/220px-Ada_Lovelace_portrait.jpg",
+      "alt": "Ada, Countess of Lovelace, 1840",
+      "caption": "Ada, Countess of Lovelace, 1840"
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Miniature_of_Ada_Byron.jpg/220px-Miniature_of_Ada_Byron.jpg",
+      "alt": "Ada, aged four",
+      "caption": "Ada, aged four"
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ada_Byron_aged_seventeen_%281832%29.jpg/170px-Ada_Byron_aged_seventeen_%281832%29.jpg",
+      "alt": "",
+      "caption": "Ada, aged seventeen, 1832"
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ada_Lovelace_in_1852.jpg/170px-Ada_Lovelace_in_1852.jpg",
+      "alt": "",
+      "caption": "Painting of Ada Lovelace at a piano in 1852 by Henry Phillips."
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ada_Lovelace.jpg/170px-Ada_Lovelace.jpg",
+      "alt": "",
+      "caption": "Portrait of Ada by British painter Margaret Sarah Carpenter (1836)"
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/220px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg",
+      "alt": "",
+      "caption": "Lovelace's diagram from Note G, the first published computer algorithm"
+    }
+  ]
+}

@@ -26,9 +26,8 @@ module.exports = {
     },
     "rules": {
         "semi": ["error", "always"],
-        "quotes": ["error", "double"],
-        "indent": ["error", 4],
-        "no-unused-vars": 0,
+        "quotes": ["error", "single"],
+        "indent": ["error", 2],
         "react/jsx-uses-vars": "error",
         "eol-last": 0,
         "no-class-assign": 0,
