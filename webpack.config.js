@@ -6,11 +6,9 @@ const BUILD_DIR = path.resolve(__dirname, 'src/client/public');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
-  template: BUILD_DIR + '/index.html',
-  filename: 'index.html',
-  inject: 'body'
+  template: BUILD_DIR + '/index.template.html'
 });
-const CleanObsoleteChunks = require('webpack-clean-obsolete-chunks');
+const WebpackCleanupPlugin = require('webpack-cleanup-plugin');
 
 module.exports = {
   entry: {
@@ -45,7 +43,9 @@ module.exports = {
     // in a module that doesn't explicitly import it
     // (e.g. stateless component functions)
   plugins: [
-    new CleanObsoleteChunks(),
+    new WebpackCleanupPlugin({
+      exclude: ['index.template.html']
+    }),
     new webpack.ProvidePlugin({
       'React': 'react'
     }),

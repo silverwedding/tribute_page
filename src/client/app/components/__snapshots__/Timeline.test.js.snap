@@ -17,196 +17,292 @@ ShallowWrapper {
     "key": null,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        <li>
-          Ada Lovelace was born 10 December 1815 as the only legitimate child of the poet George Gordon, Lord Byron and his wife Anne Isabella Milbanke, Baroness Wentworth
-        </li>,
-        <li>
-          Father, Lord Byron dies when she was 8 years old
-        </li>,
-        <li>
-          Ada's mother remained bitter towards Lord Byron and promoted Ada's interest in mathematics and logic
-        </li>,
-        <li>
-          In June 1829, she was paralysed after a bout of measles.
-        </li>,
-        <li>
-          By 1831 she was able to walk with crutches. Despite being ill Ada developed her mathematical and technological skills
-        </li>,
-        <li>
-          In early 1833 Ada had an affair with a tutor and, after being caught, tried to elope with him. The tutor's relatives recognised her and contacted her mother. Annabella and her friends covered the incident up to prevent a public scandal.
-        </li>,
-        <li>
-          As a teenager, her mathematical talents led her to an ongoing working relationship and friendship with fellow British mathematician Charles Babbage
-        </li>,
-        <li>
-          By 1834 Ada was a regular at Court and started attending various events.She danced often and was able to charm many people, and was described by most people as being dainty
-        </li>,
-        <li>
-          On 8 July 1835 she married William, 8 th Baron King, becoming Lady King.Their residence was Ockham Park, a large estate in Surrey, along with another estate on Loch Torridon in Ross - shire, and a home in London.
-        </li>,
-        <li>
-          They had three children: Byron(born 12 May 1836);Anne Isabella(called Annabella; born 22 September 1837);and Ralph Gordon(born 2 July 1839).Immediately after the birth of Annabella, Lady King experienced "a tedious and suffering illness, which took months to cure."
-        </li>,
-        <li>
-          Between 1842 and 1843, she translated an article by Italian military engineer Luigi Menabrea on the engine, which she supplemented with an elaborate set of notes, simply called Notes.These notes contain what many consider to be the first computer program— that is, an algorithm designed to be carried out by a machine.
-        </li>,
-        <li>
-          In 1953, more than a century after her death, Lovelace's notes on Babbage's Analytical Engine were republished.The engine has now been recognised as an early model for a computer and her notes as a description of a computer and software.
-        </li>,
-        <li>
-          In her notes, Lovelace emphasised the difference between the Analytical Engine and previous calculating machines, particularly its ability to be programmed to solve problems of any complexity.She realised the potential of the device extended far beyond mere number crunching.
-        </li>,
-      ],
-      "id": "events",
+      "children": <div
+        className="col-xs-12"
+      >
+        <h2
+          className="text-center"
+        >
+          A time line of Ada Lovelace's life
+        </h2>
+        <hr />
+        <Timeline />
+        <hr />
+        <blockquote>
+          <i
+            className="fa fa-quote-left"
+          />
+          [The Analytical Engine] might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations, and which should be also susceptible of adaptations to the action of the operating notation and mechanism of the engine...
+          <i
+            className="fa fa-quote-right"
+          />
+        </blockquote>
+        <blockquote>
+          <i
+            className="fa fa-quote-left"
+          />
+          Supposing, for instance, that the fundamental relations of pitched sounds in the science of harmony and of musical composition were susceptible of such expression and adaptations, the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent.
+          <i
+            className="fa fa-quote-right"
+          />
+        </blockquote>
+        <hr />
+        <h3
+          className="text-center"
+        >
+          Read more about Ada Lovelace  
+          <a
+            className="btn btn-primary"
+            href="https://en.wikipedia.org/wiki/Ada_Lovelace"
+            role="button"
+            target="_blank"
+          >
+            Here
+          </a>
+        </h3>
+        <hr />
+      </div>,
+      "className": "row timeline",
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": "0",
-        "nodeType": "host",
-        "props": Object {
-          "children": "Ada Lovelace was born 10 December 1815 as the only legitimate child of the poet George Gordon, Lord Byron and his wife Anne Isabella Milbanke, Baroness Wentworth",
-        },
-        "ref": null,
-        "rendered": "Ada Lovelace was born 10 December 1815 as the only legitimate child of the poet George Gordon, Lord Byron and his wife Anne Isabella Milbanke, Baroness Wentworth",
-        "type": "li",
+    "rendered": Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="text-center"
+          >
+            A time line of Ada Lovelace's life
+          </h2>,
+          <hr />,
+          <Timeline />,
+          <hr />,
+          <blockquote>
+            <i
+              className="fa fa-quote-left"
+            />
+            [The Analytical Engine] might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations, and which should be also susceptible of adaptations to the action of the operating notation and mechanism of the engine...
+            <i
+              className="fa fa-quote-right"
+            />
+          </blockquote>,
+          <blockquote>
+            <i
+              className="fa fa-quote-left"
+            />
+            Supposing, for instance, that the fundamental relations of pitched sounds in the science of harmony and of musical composition were susceptible of such expression and adaptations, the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent.
+            <i
+              className="fa fa-quote-right"
+            />
+          </blockquote>,
+          <hr />,
+          <h3
+            className="text-center"
+          >
+            Read more about Ada Lovelace  
+            <a
+              className="btn btn-primary"
+              href="https://en.wikipedia.org/wiki/Ada_Lovelace"
+              role="button"
+              target="_blank"
+            >
+              Here
+            </a>
+          </h3>,
+          <hr />,
+        ],
+        "className": "col-xs-12",
       },
-      Object {
-        "instance": null,
-        "key": "1",
-        "nodeType": "host",
-        "props": Object {
-          "children": "Father, Lord Byron dies when she was 8 years old",
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "A time line of Ada Lovelace's life",
+            "className": "text-center",
+          },
+          "ref": null,
+          "rendered": "A time line of Ada Lovelace's life",
+          "type": "h2",
         },
-        "ref": null,
-        "rendered": "Father, Lord Byron dies when she was 8 years old",
-        "type": "li",
-      },
-      Object {
-        "instance": null,
-        "key": "2",
-        "nodeType": "host",
-        "props": Object {
-          "children": "Ada's mother remained bitter towards Lord Byron and promoted Ada's interest in mathematics and logic",
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
         },
-        "ref": null,
-        "rendered": "Ada's mother remained bitter towards Lord Byron and promoted Ada's interest in mathematics and logic",
-        "type": "li",
-      },
-      Object {
-        "instance": null,
-        "key": "3",
-        "nodeType": "host",
-        "props": Object {
-          "children": "In June 1829, she was paralysed after a bout of measles.",
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
         },
-        "ref": null,
-        "rendered": "In June 1829, she was paralysed after a bout of measles.",
-        "type": "li",
-      },
-      Object {
-        "instance": null,
-        "key": "4",
-        "nodeType": "host",
-        "props": Object {
-          "children": "By 1831 she was able to walk with crutches. Despite being ill Ada developed her mathematical and technological skills",
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
         },
-        "ref": null,
-        "rendered": "By 1831 she was able to walk with crutches. Despite being ill Ada developed her mathematical and technological skills",
-        "type": "li",
-      },
-      Object {
-        "instance": null,
-        "key": "5",
-        "nodeType": "host",
-        "props": Object {
-          "children": "In early 1833 Ada had an affair with a tutor and, after being caught, tried to elope with him. The tutor's relatives recognised her and contacted her mother. Annabella and her friends covered the incident up to prevent a public scandal.",
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <i
+                className="fa fa-quote-left"
+              />,
+              "[The Analytical Engine] might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations, and which should be also susceptible of adaptations to the action of the operating notation and mechanism of the engine...",
+              <i
+                className="fa fa-quote-right"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "className": "fa fa-quote-left",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            "[The Analytical Engine] might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations, and which should be also susceptible of adaptations to the action of the operating notation and mechanism of the engine...",
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "className": "fa fa-quote-right",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+          ],
+          "type": "blockquote",
         },
-        "ref": null,
-        "rendered": "In early 1833 Ada had an affair with a tutor and, after being caught, tried to elope with him. The tutor's relatives recognised her and contacted her mother. Annabella and her friends covered the incident up to prevent a public scandal.",
-        "type": "li",
-      },
-      Object {
-        "instance": null,
-        "key": "6",
-        "nodeType": "host",
-        "props": Object {
-          "children": "As a teenager, her mathematical talents led her to an ongoing working relationship and friendship with fellow British mathematician Charles Babbage",
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <i
+                className="fa fa-quote-left"
+              />,
+              "Supposing, for instance, that the fundamental relations of pitched sounds in the science of harmony and of musical composition were susceptible of such expression and adaptations, the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent.",
+              <i
+                className="fa fa-quote-right"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "className": "fa fa-quote-left",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            "Supposing, for instance, that the fundamental relations of pitched sounds in the science of harmony and of musical composition were susceptible of such expression and adaptations, the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent.",
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "className": "fa fa-quote-right",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+          ],
+          "type": "blockquote",
         },
-        "ref": null,
-        "rendered": "As a teenager, her mathematical talents led her to an ongoing working relationship and friendship with fellow British mathematician Charles Babbage",
-        "type": "li",
-      },
-      Object {
-        "instance": null,
-        "key": "7",
-        "nodeType": "host",
-        "props": Object {
-          "children": "By 1834 Ada was a regular at Court and started attending various events.She danced often and was able to charm many people, and was described by most people as being dainty",
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
         },
-        "ref": null,
-        "rendered": "By 1834 Ada was a regular at Court and started attending various events.She danced often and was able to charm many people, and was described by most people as being dainty",
-        "type": "li",
-      },
-      Object {
-        "instance": null,
-        "key": "8",
-        "nodeType": "host",
-        "props": Object {
-          "children": "On 8 July 1835 she married William, 8 th Baron King, becoming Lady King.Their residence was Ockham Park, a large estate in Surrey, along with another estate on Loch Torridon in Ross - shire, and a home in London.",
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Read more about Ada Lovelace  ",
+              <a
+                className="btn btn-primary"
+                href="https://en.wikipedia.org/wiki/Ada_Lovelace"
+                role="button"
+                target="_blank"
+              >
+                Here
+              </a>,
+            ],
+            "className": "text-center",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Read more about Ada Lovelace  ",
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Here",
+                "className": "btn btn-primary",
+                "href": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+                "role": "button",
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": "Here",
+              "type": "a",
+            },
+          ],
+          "type": "h3",
         },
-        "ref": null,
-        "rendered": "On 8 July 1835 she married William, 8 th Baron King, becoming Lady King.Their residence was Ockham Park, a large estate in Surrey, along with another estate on Loch Torridon in Ross - shire, and a home in London.",
-        "type": "li",
-      },
-      Object {
-        "instance": null,
-        "key": "9",
-        "nodeType": "host",
-        "props": Object {
-          "children": "They had three children: Byron(born 12 May 1836);Anne Isabella(called Annabella; born 22 September 1837);and Ralph Gordon(born 2 July 1839).Immediately after the birth of Annabella, Lady King experienced \\"a tedious and suffering illness, which took months to cure.\\"",
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
         },
-        "ref": null,
-        "rendered": "They had three children: Byron(born 12 May 1836);Anne Isabella(called Annabella; born 22 September 1837);and Ralph Gordon(born 2 July 1839).Immediately after the birth of Annabella, Lady King experienced \\"a tedious and suffering illness, which took months to cure.\\"",
-        "type": "li",
-      },
-      Object {
-        "instance": null,
-        "key": "10",
-        "nodeType": "host",
-        "props": Object {
-          "children": "Between 1842 and 1843, she translated an article by Italian military engineer Luigi Menabrea on the engine, which she supplemented with an elaborate set of notes, simply called Notes.These notes contain what many consider to be the first computer program— that is, an algorithm designed to be carried out by a machine.",
-        },
-        "ref": null,
-        "rendered": "Between 1842 and 1843, she translated an article by Italian military engineer Luigi Menabrea on the engine, which she supplemented with an elaborate set of notes, simply called Notes.These notes contain what many consider to be the first computer program— that is, an algorithm designed to be carried out by a machine.",
-        "type": "li",
-      },
-      Object {
-        "instance": null,
-        "key": "11",
-        "nodeType": "host",
-        "props": Object {
-          "children": "In 1953, more than a century after her death, Lovelace's notes on Babbage's Analytical Engine were republished.The engine has now been recognised as an early model for a computer and her notes as a description of a computer and software.",
-        },
-        "ref": null,
-        "rendered": "In 1953, more than a century after her death, Lovelace's notes on Babbage's Analytical Engine were republished.The engine has now been recognised as an early model for a computer and her notes as a description of a computer and software.",
-        "type": "li",
-      },
-      Object {
-        "instance": null,
-        "key": "12",
-        "nodeType": "host",
-        "props": Object {
-          "children": "In her notes, Lovelace emphasised the difference between the Analytical Engine and previous calculating machines, particularly its ability to be programmed to solve problems of any complexity.She realised the potential of the device extended far beyond mere number crunching.",
-        },
-        "ref": null,
-        "rendered": "In her notes, Lovelace emphasised the difference between the Analytical Engine and previous calculating machines, particularly its ability to be programmed to solve problems of any complexity.She realised the potential of the device extended far beyond mere number crunching.",
-        "type": "li",
-      },
-    ],
-    "type": "ul",
+      ],
+      "type": "div",
+    },
+    "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -214,196 +310,292 @@ ShallowWrapper {
       "key": null,
       "nodeType": "host",
       "props": Object {
-        "children": Array [
-          <li>
-            Ada Lovelace was born 10 December 1815 as the only legitimate child of the poet George Gordon, Lord Byron and his wife Anne Isabella Milbanke, Baroness Wentworth
-          </li>,
-          <li>
-            Father, Lord Byron dies when she was 8 years old
-          </li>,
-          <li>
-            Ada's mother remained bitter towards Lord Byron and promoted Ada's interest in mathematics and logic
-          </li>,
-          <li>
-            In June 1829, she was paralysed after a bout of measles.
-          </li>,
-          <li>
-            By 1831 she was able to walk with crutches. Despite being ill Ada developed her mathematical and technological skills
-          </li>,
-          <li>
-            In early 1833 Ada had an affair with a tutor and, after being caught, tried to elope with him. The tutor's relatives recognised her and contacted her mother. Annabella and her friends covered the incident up to prevent a public scandal.
-          </li>,
-          <li>
-            As a teenager, her mathematical talents led her to an ongoing working relationship and friendship with fellow British mathematician Charles Babbage
-          </li>,
-          <li>
-            By 1834 Ada was a regular at Court and started attending various events.She danced often and was able to charm many people, and was described by most people as being dainty
-          </li>,
-          <li>
-            On 8 July 1835 she married William, 8 th Baron King, becoming Lady King.Their residence was Ockham Park, a large estate in Surrey, along with another estate on Loch Torridon in Ross - shire, and a home in London.
-          </li>,
-          <li>
-            They had three children: Byron(born 12 May 1836);Anne Isabella(called Annabella; born 22 September 1837);and Ralph Gordon(born 2 July 1839).Immediately after the birth of Annabella, Lady King experienced "a tedious and suffering illness, which took months to cure."
-          </li>,
-          <li>
-            Between 1842 and 1843, she translated an article by Italian military engineer Luigi Menabrea on the engine, which she supplemented with an elaborate set of notes, simply called Notes.These notes contain what many consider to be the first computer program— that is, an algorithm designed to be carried out by a machine.
-          </li>,
-          <li>
-            In 1953, more than a century after her death, Lovelace's notes on Babbage's Analytical Engine were republished.The engine has now been recognised as an early model for a computer and her notes as a description of a computer and software.
-          </li>,
-          <li>
-            In her notes, Lovelace emphasised the difference between the Analytical Engine and previous calculating machines, particularly its ability to be programmed to solve problems of any complexity.She realised the potential of the device extended far beyond mere number crunching.
-          </li>,
-        ],
-        "id": "events",
+        "children": <div
+          className="col-xs-12"
+        >
+          <h2
+            className="text-center"
+          >
+            A time line of Ada Lovelace's life
+          </h2>
+          <hr />
+          <Timeline />
+          <hr />
+          <blockquote>
+            <i
+              className="fa fa-quote-left"
+            />
+            [The Analytical Engine] might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations, and which should be also susceptible of adaptations to the action of the operating notation and mechanism of the engine...
+            <i
+              className="fa fa-quote-right"
+            />
+          </blockquote>
+          <blockquote>
+            <i
+              className="fa fa-quote-left"
+            />
+            Supposing, for instance, that the fundamental relations of pitched sounds in the science of harmony and of musical composition were susceptible of such expression and adaptations, the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent.
+            <i
+              className="fa fa-quote-right"
+            />
+          </blockquote>
+          <hr />
+          <h3
+            className="text-center"
+          >
+            Read more about Ada Lovelace  
+            <a
+              className="btn btn-primary"
+              href="https://en.wikipedia.org/wiki/Ada_Lovelace"
+              role="button"
+              target="_blank"
+            >
+              Here
+            </a>
+          </h3>
+          <hr />
+        </div>,
+        "className": "row timeline",
       },
       "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": "0",
-          "nodeType": "host",
-          "props": Object {
-            "children": "Ada Lovelace was born 10 December 1815 as the only legitimate child of the poet George Gordon, Lord Byron and his wife Anne Isabella Milbanke, Baroness Wentworth",
-          },
-          "ref": null,
-          "rendered": "Ada Lovelace was born 10 December 1815 as the only legitimate child of the poet George Gordon, Lord Byron and his wife Anne Isabella Milbanke, Baroness Wentworth",
-          "type": "li",
+      "rendered": Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="text-center"
+            >
+              A time line of Ada Lovelace's life
+            </h2>,
+            <hr />,
+            <Timeline />,
+            <hr />,
+            <blockquote>
+              <i
+                className="fa fa-quote-left"
+              />
+              [The Analytical Engine] might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations, and which should be also susceptible of adaptations to the action of the operating notation and mechanism of the engine...
+              <i
+                className="fa fa-quote-right"
+              />
+            </blockquote>,
+            <blockquote>
+              <i
+                className="fa fa-quote-left"
+              />
+              Supposing, for instance, that the fundamental relations of pitched sounds in the science of harmony and of musical composition were susceptible of such expression and adaptations, the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent.
+              <i
+                className="fa fa-quote-right"
+              />
+            </blockquote>,
+            <hr />,
+            <h3
+              className="text-center"
+            >
+              Read more about Ada Lovelace  
+              <a
+                className="btn btn-primary"
+                href="https://en.wikipedia.org/wiki/Ada_Lovelace"
+                role="button"
+                target="_blank"
+              >
+                Here
+              </a>
+            </h3>,
+            <hr />,
+          ],
+          "className": "col-xs-12",
         },
-        Object {
-          "instance": null,
-          "key": "1",
-          "nodeType": "host",
-          "props": Object {
-            "children": "Father, Lord Byron dies when she was 8 years old",
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "A time line of Ada Lovelace's life",
+              "className": "text-center",
+            },
+            "ref": null,
+            "rendered": "A time line of Ada Lovelace's life",
+            "type": "h2",
           },
-          "ref": null,
-          "rendered": "Father, Lord Byron dies when she was 8 years old",
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": "2",
-          "nodeType": "host",
-          "props": Object {
-            "children": "Ada's mother remained bitter towards Lord Byron and promoted Ada's interest in mathematics and logic",
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "hr",
           },
-          "ref": null,
-          "rendered": "Ada's mother remained bitter towards Lord Byron and promoted Ada's interest in mathematics and logic",
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": "3",
-          "nodeType": "host",
-          "props": Object {
-            "children": "In June 1829, she was paralysed after a bout of measles.",
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
           },
-          "ref": null,
-          "rendered": "In June 1829, she was paralysed after a bout of measles.",
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": "4",
-          "nodeType": "host",
-          "props": Object {
-            "children": "By 1831 she was able to walk with crutches. Despite being ill Ada developed her mathematical and technological skills",
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "hr",
           },
-          "ref": null,
-          "rendered": "By 1831 she was able to walk with crutches. Despite being ill Ada developed her mathematical and technological skills",
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": "5",
-          "nodeType": "host",
-          "props": Object {
-            "children": "In early 1833 Ada had an affair with a tutor and, after being caught, tried to elope with him. The tutor's relatives recognised her and contacted her mother. Annabella and her friends covered the incident up to prevent a public scandal.",
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="fa fa-quote-left"
+                />,
+                "[The Analytical Engine] might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations, and which should be also susceptible of adaptations to the action of the operating notation and mechanism of the engine...",
+                <i
+                  className="fa fa-quote-right"
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fa fa-quote-left",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              "[The Analytical Engine] might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations, and which should be also susceptible of adaptations to the action of the operating notation and mechanism of the engine...",
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fa fa-quote-right",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+            ],
+            "type": "blockquote",
           },
-          "ref": null,
-          "rendered": "In early 1833 Ada had an affair with a tutor and, after being caught, tried to elope with him. The tutor's relatives recognised her and contacted her mother. Annabella and her friends covered the incident up to prevent a public scandal.",
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": "6",
-          "nodeType": "host",
-          "props": Object {
-            "children": "As a teenager, her mathematical talents led her to an ongoing working relationship and friendship with fellow British mathematician Charles Babbage",
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="fa fa-quote-left"
+                />,
+                "Supposing, for instance, that the fundamental relations of pitched sounds in the science of harmony and of musical composition were susceptible of such expression and adaptations, the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent.",
+                <i
+                  className="fa fa-quote-right"
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fa fa-quote-left",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              "Supposing, for instance, that the fundamental relations of pitched sounds in the science of harmony and of musical composition were susceptible of such expression and adaptations, the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent.",
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fa fa-quote-right",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+            ],
+            "type": "blockquote",
           },
-          "ref": null,
-          "rendered": "As a teenager, her mathematical talents led her to an ongoing working relationship and friendship with fellow British mathematician Charles Babbage",
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": "7",
-          "nodeType": "host",
-          "props": Object {
-            "children": "By 1834 Ada was a regular at Court and started attending various events.She danced often and was able to charm many people, and was described by most people as being dainty",
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "hr",
           },
-          "ref": null,
-          "rendered": "By 1834 Ada was a regular at Court and started attending various events.She danced often and was able to charm many people, and was described by most people as being dainty",
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": "8",
-          "nodeType": "host",
-          "props": Object {
-            "children": "On 8 July 1835 she married William, 8 th Baron King, becoming Lady King.Their residence was Ockham Park, a large estate in Surrey, along with another estate on Loch Torridon in Ross - shire, and a home in London.",
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Read more about Ada Lovelace  ",
+                <a
+                  className="btn btn-primary"
+                  href="https://en.wikipedia.org/wiki/Ada_Lovelace"
+                  role="button"
+                  target="_blank"
+                >
+                  Here
+                </a>,
+              ],
+              "className": "text-center",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Read more about Ada Lovelace  ",
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Here",
+                  "className": "btn btn-primary",
+                  "href": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+                  "role": "button",
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": "Here",
+                "type": "a",
+              },
+            ],
+            "type": "h3",
           },
-          "ref": null,
-          "rendered": "On 8 July 1835 she married William, 8 th Baron King, becoming Lady King.Their residence was Ockham Park, a large estate in Surrey, along with another estate on Loch Torridon in Ross - shire, and a home in London.",
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": "9",
-          "nodeType": "host",
-          "props": Object {
-            "children": "They had three children: Byron(born 12 May 1836);Anne Isabella(called Annabella; born 22 September 1837);and Ralph Gordon(born 2 July 1839).Immediately after the birth of Annabella, Lady King experienced \\"a tedious and suffering illness, which took months to cure.\\"",
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "hr",
           },
-          "ref": null,
-          "rendered": "They had three children: Byron(born 12 May 1836);Anne Isabella(called Annabella; born 22 September 1837);and Ralph Gordon(born 2 July 1839).Immediately after the birth of Annabella, Lady King experienced \\"a tedious and suffering illness, which took months to cure.\\"",
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": "10",
-          "nodeType": "host",
-          "props": Object {
-            "children": "Between 1842 and 1843, she translated an article by Italian military engineer Luigi Menabrea on the engine, which she supplemented with an elaborate set of notes, simply called Notes.These notes contain what many consider to be the first computer program— that is, an algorithm designed to be carried out by a machine.",
-          },
-          "ref": null,
-          "rendered": "Between 1842 and 1843, she translated an article by Italian military engineer Luigi Menabrea on the engine, which she supplemented with an elaborate set of notes, simply called Notes.These notes contain what many consider to be the first computer program— that is, an algorithm designed to be carried out by a machine.",
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": "11",
-          "nodeType": "host",
-          "props": Object {
-            "children": "In 1953, more than a century after her death, Lovelace's notes on Babbage's Analytical Engine were republished.The engine has now been recognised as an early model for a computer and her notes as a description of a computer and software.",
-          },
-          "ref": null,
-          "rendered": "In 1953, more than a century after her death, Lovelace's notes on Babbage's Analytical Engine were republished.The engine has now been recognised as an early model for a computer and her notes as a description of a computer and software.",
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": "12",
-          "nodeType": "host",
-          "props": Object {
-            "children": "In her notes, Lovelace emphasised the difference between the Analytical Engine and previous calculating machines, particularly its ability to be programmed to solve problems of any complexity.She realised the potential of the device extended far beyond mere number crunching.",
-          },
-          "ref": null,
-          "rendered": "In her notes, Lovelace emphasised the difference between the Analytical Engine and previous calculating machines, particularly its ability to be programmed to solve problems of any complexity.She realised the potential of the device extended far beyond mere number crunching.",
-          "type": "li",
-        },
-      ],
-      "type": "ul",
+        ],
+        "type": "div",
+      },
+      "type": "div",
     },
   ],
   Symbol(enzyme.__options__): Object {

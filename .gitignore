@@ -1,5 +1,6 @@
 node_modules
-src/client/public/
+src/client/public/*.js
+src/client/public/index.html
 npm-debug.log
 .idea/
 
