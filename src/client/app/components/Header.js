@@ -1,8 +1,9 @@
 import React from 'react';
-import Carousel from './carousel';
+import { Jumbotron } from 'react-bootstrap';
+import Gallery from './Gallery';
 
-const Jumbotron = () => (
-	<div className="jumbotron">
+const Header = () => (
+	<Jumbotron>
 		<hr />
 		<div className="row">
 			<div className="col-xs-12">
@@ -12,10 +13,10 @@ const Jumbotron = () => (
 		</div>
 		<div className="row">
 			<div className="col-xs-12">
-        <Carousel />
+        <Gallery />
       </div>
     </div>
-	</div>
+  </Jumbotron>
 );
 
-export default Jumbotron;
+export default Header;

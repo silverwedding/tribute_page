@@ -22,7 +22,40 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack && webpack-dev-server --inline --hot --content-base src/client/public/",
-    "build": "webpack -p --config ./webpack.production.config.js"
+    "build": "webpack -p --config ./webpack.production.config.js",
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less|scss)$": "babel-jest"
+    },
+    "setupFiles": [
+      "<rootDir>/src/client/app/setupTests.js"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "bower_components",
+      "shared"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "modulePaths": [
+      "/shared/vendor/modules"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/",
+      "<rootDir>/src/client/public/stylesheets/",
+      "<rootDir>/src/client/app/sass/"
+    ],
+    "collectCoverageFrom": [
+      "src/client/app/**/*.js",
+      "!src/client/app/index.js",
+      "!src/client/app/tempPolyfills.js",
+      "!src/client/app/setupTests.js"
+    ]
   },
   "dependencies": {
     "axios": "^0.16.2",
@@ -42,18 +75,25 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^6.1.2",
+    "babel-jest": "^21.2.0",
     "babel-loader": "^7.1.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-preset-es2017": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "compression-webpack-plugin": "^1.0.1",
     "css-loader": "^0.26.1",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.1",
     "eslint": "^3.4.0",
     "eslint-config-standard": "^5.3.5",
     "eslint-plugin-promise": "^2.0.0",
     "eslint-plugin-react": "^6.2.0",
     "eslint-plugin-standard": "^2.0.0",
     "extract-text-webpack-plugin": "^3.0.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest-cli": "^21.2.1",
+    "react-test-renderer": "16",
     "redux-devtools": "^3.4.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.13.1",

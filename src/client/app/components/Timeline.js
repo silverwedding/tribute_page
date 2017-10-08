@@ -1,7 +1,7 @@
 import React from 'react';
 import timeline from '../data/timeline.json';
 
-const Events = () => {
+const Timeline = () => {
   const timelineList = timeline.timeline.map((item, i) =>
 		<li key={i} >{item}</li>
 	);
@@ -13,4 +13,4 @@ const Events = () => {
   );
 };
 
-export default Events;
+export default Timeline;

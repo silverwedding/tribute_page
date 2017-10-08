@@ -10,10 +10,11 @@ const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
   filename: 'index.html',
   inject: 'body'
 });
+const CleanObsoleteChunks = require('webpack-clean-obsolete-chunks');
 
 module.exports = {
   entry: {
-    javascript: APP_DIR + '/app.js'
+    javascript: APP_DIR + '/index.js'
   },
   output: {
     path: BUILD_DIR,
@@ -44,6 +45,7 @@ module.exports = {
     // in a module that doesn't explicitly import it
     // (e.g. stateless component functions)
   plugins: [
+    new CleanObsoleteChunks(),
     new webpack.ProvidePlugin({
       'React': 'react'
     }),

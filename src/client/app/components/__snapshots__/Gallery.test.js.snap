@@ -1,0 +1,1676 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Gallery />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="col-xs-12"
+      >
+        <Carousel
+          activeIndex={0}
+          bsClass="carousel"
+          controls={true}
+          direction={null}
+          indicators={true}
+          interval={5000}
+          nextIcon={
+            <Glyphicon
+              bsClass="glyphicon"
+              glyph="chevron-right"
+            />
+          }
+          nextLabel="Next"
+          onSelect={[Function]}
+          pauseOnHover={true}
+          prevIcon={
+            <Glyphicon
+              bsClass="glyphicon"
+              glyph="chevron-left"
+            />
+          }
+          prevLabel="Previous"
+          slide={true}
+          wrap={true}
+        >
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <img
+              alt="Ada, Countess of Lovelace, 1840"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/220px-Ada_Lovelace_portrait.jpg"
+            />
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="div"
+            >
+              <h3>
+                Ada, Countess of Lovelace, 1840
+              </h3>
+            </CarouselCaption>
+          </CarouselItem>
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <img
+              alt="Ada, aged four"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Miniature_of_Ada_Byron.jpg/220px-Miniature_of_Ada_Byron.jpg"
+            />
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="div"
+            >
+              <h3>
+                Ada, aged four
+              </h3>
+            </CarouselCaption>
+          </CarouselItem>
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <img
+              alt=""
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ada_Byron_aged_seventeen_%281832%29.jpg/170px-Ada_Byron_aged_seventeen_%281832%29.jpg"
+            />
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="div"
+            >
+              <h3>
+                Ada, aged seventeen, 1832
+              </h3>
+            </CarouselCaption>
+          </CarouselItem>
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <img
+              alt=""
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ada_Lovelace_in_1852.jpg/170px-Ada_Lovelace_in_1852.jpg"
+            />
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="div"
+            >
+              <h3>
+                Painting of Ada Lovelace at a piano in 1852 by Henry Phillips.
+              </h3>
+            </CarouselCaption>
+          </CarouselItem>
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <img
+              alt=""
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ada_Lovelace.jpg/170px-Ada_Lovelace.jpg"
+            />
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="div"
+            >
+              <h3>
+                Portrait of Ada by British painter Margaret Sarah Carpenter (1836)
+              </h3>
+            </CarouselCaption>
+          </CarouselItem>
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <img
+              alt=""
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/220px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg"
+            />
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="div"
+            >
+              <h3>
+                Lovelace's diagram from Note G, the first published computer algorithm
+              </h3>
+            </CarouselCaption>
+          </CarouselItem>
+        </Carousel>
+      </div>,
+      "className": "row",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Carousel
+          activeIndex={0}
+          bsClass="carousel"
+          controls={true}
+          direction={null}
+          indicators={true}
+          interval={5000}
+          nextIcon={
+            <Glyphicon
+              bsClass="glyphicon"
+              glyph="chevron-right"
+            />
+          }
+          nextLabel="Next"
+          onSelect={[Function]}
+          pauseOnHover={true}
+          prevIcon={
+            <Glyphicon
+              bsClass="glyphicon"
+              glyph="chevron-left"
+            />
+          }
+          prevLabel="Previous"
+          slide={true}
+          wrap={true}
+        >
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <img
+              alt="Ada, Countess of Lovelace, 1840"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/220px-Ada_Lovelace_portrait.jpg"
+            />
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="div"
+            >
+              <h3>
+                Ada, Countess of Lovelace, 1840
+              </h3>
+            </CarouselCaption>
+          </CarouselItem>
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <img
+              alt="Ada, aged four"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Miniature_of_Ada_Byron.jpg/220px-Miniature_of_Ada_Byron.jpg"
+            />
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="div"
+            >
+              <h3>
+                Ada, aged four
+              </h3>
+            </CarouselCaption>
+          </CarouselItem>
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <img
+              alt=""
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ada_Byron_aged_seventeen_%281832%29.jpg/170px-Ada_Byron_aged_seventeen_%281832%29.jpg"
+            />
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="div"
+            >
+              <h3>
+                Ada, aged seventeen, 1832
+              </h3>
+            </CarouselCaption>
+          </CarouselItem>
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <img
+              alt=""
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ada_Lovelace_in_1852.jpg/170px-Ada_Lovelace_in_1852.jpg"
+            />
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="div"
+            >
+              <h3>
+                Painting of Ada Lovelace at a piano in 1852 by Henry Phillips.
+              </h3>
+            </CarouselCaption>
+          </CarouselItem>
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <img
+              alt=""
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ada_Lovelace.jpg/170px-Ada_Lovelace.jpg"
+            />
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="div"
+            >
+              <h3>
+                Portrait of Ada by British painter Margaret Sarah Carpenter (1836)
+              </h3>
+            </CarouselCaption>
+          </CarouselItem>
+          <CarouselItem
+            active={false}
+            animateIn={false}
+            animateOut={false}
+          >
+            <img
+              alt=""
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/220px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg"
+            />
+            <CarouselCaption
+              bsClass="carousel-caption"
+              componentClass="div"
+            >
+              <h3>
+                Lovelace's diagram from Note G, the first published computer algorithm
+              </h3>
+            </CarouselCaption>
+          </CarouselItem>
+        </Carousel>,
+        "className": "col-xs-12",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "activeIndex": 0,
+          "bsClass": "carousel",
+          "children": Array [
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <img
+                alt="Ada, Countess of Lovelace, 1840"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/220px-Ada_Lovelace_portrait.jpg"
+              />
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="div"
+              >
+                <h3>
+                  Ada, Countess of Lovelace, 1840
+                </h3>
+              </CarouselCaption>
+            </CarouselItem>,
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <img
+                alt="Ada, aged four"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Miniature_of_Ada_Byron.jpg/220px-Miniature_of_Ada_Byron.jpg"
+              />
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="div"
+              >
+                <h3>
+                  Ada, aged four
+                </h3>
+              </CarouselCaption>
+            </CarouselItem>,
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <img
+                alt=""
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ada_Byron_aged_seventeen_%281832%29.jpg/170px-Ada_Byron_aged_seventeen_%281832%29.jpg"
+              />
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="div"
+              >
+                <h3>
+                  Ada, aged seventeen, 1832
+                </h3>
+              </CarouselCaption>
+            </CarouselItem>,
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <img
+                alt=""
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ada_Lovelace_in_1852.jpg/170px-Ada_Lovelace_in_1852.jpg"
+              />
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="div"
+              >
+                <h3>
+                  Painting of Ada Lovelace at a piano in 1852 by Henry Phillips.
+                </h3>
+              </CarouselCaption>
+            </CarouselItem>,
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <img
+                alt=""
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ada_Lovelace.jpg/170px-Ada_Lovelace.jpg"
+              />
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="div"
+              >
+                <h3>
+                  Portrait of Ada by British painter Margaret Sarah Carpenter (1836)
+                </h3>
+              </CarouselCaption>
+            </CarouselItem>,
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <img
+                alt=""
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/220px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg"
+              />
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="div"
+              >
+                <h3>
+                  Lovelace's diagram from Note G, the first published computer algorithm
+                </h3>
+              </CarouselCaption>
+            </CarouselItem>,
+          ],
+          "controls": true,
+          "direction": null,
+          "indicators": true,
+          "interval": 5000,
+          "nextIcon": <Glyphicon
+            bsClass="glyphicon"
+            glyph="chevron-right"
+          />,
+          "nextLabel": "Next",
+          "onSelect": [Function],
+          "pauseOnHover": true,
+          "prevIcon": <Glyphicon
+            bsClass="glyphicon"
+            glyph="chevron-left"
+          />,
+          "prevLabel": "Previous",
+          "slide": true,
+          "wrap": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "animateIn": false,
+              "animateOut": false,
+              "children": Array [
+                <img
+                  alt="Ada, Countess of Lovelace, 1840"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/220px-Ada_Lovelace_portrait.jpg"
+                />,
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="div"
+                >
+                  <h3>
+                    Ada, Countess of Lovelace, 1840
+                  </h3>
+                </CarouselCaption>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "Ada, Countess of Lovelace, 1840",
+                  "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/220px-Ada_Lovelace_portrait.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "carousel-caption",
+                  "children": <h3>
+                    Ada, Countess of Lovelace, 1840
+                  </h3>,
+                  "componentClass": "div",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Ada, Countess of Lovelace, 1840",
+                  },
+                  "ref": null,
+                  "rendered": "Ada, Countess of Lovelace, 1840",
+                  "type": "h3",
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "animateIn": false,
+              "animateOut": false,
+              "children": Array [
+                <img
+                  alt="Ada, aged four"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Miniature_of_Ada_Byron.jpg/220px-Miniature_of_Ada_Byron.jpg"
+                />,
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="div"
+                >
+                  <h3>
+                    Ada, aged four
+                  </h3>
+                </CarouselCaption>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "Ada, aged four",
+                  "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Miniature_of_Ada_Byron.jpg/220px-Miniature_of_Ada_Byron.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "carousel-caption",
+                  "children": <h3>
+                    Ada, aged four
+                  </h3>,
+                  "componentClass": "div",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Ada, aged four",
+                  },
+                  "ref": null,
+                  "rendered": "Ada, aged four",
+                  "type": "h3",
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "animateIn": false,
+              "animateOut": false,
+              "children": Array [
+                <img
+                  alt=""
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ada_Byron_aged_seventeen_%281832%29.jpg/170px-Ada_Byron_aged_seventeen_%281832%29.jpg"
+                />,
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="div"
+                >
+                  <h3>
+                    Ada, aged seventeen, 1832
+                  </h3>
+                </CarouselCaption>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "",
+                  "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ada_Byron_aged_seventeen_%281832%29.jpg/170px-Ada_Byron_aged_seventeen_%281832%29.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "carousel-caption",
+                  "children": <h3>
+                    Ada, aged seventeen, 1832
+                  </h3>,
+                  "componentClass": "div",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Ada, aged seventeen, 1832",
+                  },
+                  "ref": null,
+                  "rendered": "Ada, aged seventeen, 1832",
+                  "type": "h3",
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "animateIn": false,
+              "animateOut": false,
+              "children": Array [
+                <img
+                  alt=""
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ada_Lovelace_in_1852.jpg/170px-Ada_Lovelace_in_1852.jpg"
+                />,
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="div"
+                >
+                  <h3>
+                    Painting of Ada Lovelace at a piano in 1852 by Henry Phillips.
+                  </h3>
+                </CarouselCaption>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "",
+                  "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ada_Lovelace_in_1852.jpg/170px-Ada_Lovelace_in_1852.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "carousel-caption",
+                  "children": <h3>
+                    Painting of Ada Lovelace at a piano in 1852 by Henry Phillips.
+                  </h3>,
+                  "componentClass": "div",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Painting of Ada Lovelace at a piano in 1852 by Henry Phillips.",
+                  },
+                  "ref": null,
+                  "rendered": "Painting of Ada Lovelace at a piano in 1852 by Henry Phillips.",
+                  "type": "h3",
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "animateIn": false,
+              "animateOut": false,
+              "children": Array [
+                <img
+                  alt=""
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ada_Lovelace.jpg/170px-Ada_Lovelace.jpg"
+                />,
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="div"
+                >
+                  <h3>
+                    Portrait of Ada by British painter Margaret Sarah Carpenter (1836)
+                  </h3>
+                </CarouselCaption>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "",
+                  "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ada_Lovelace.jpg/170px-Ada_Lovelace.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "carousel-caption",
+                  "children": <h3>
+                    Portrait of Ada by British painter Margaret Sarah Carpenter (1836)
+                  </h3>,
+                  "componentClass": "div",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Portrait of Ada by British painter Margaret Sarah Carpenter (1836)",
+                  },
+                  "ref": null,
+                  "rendered": "Portrait of Ada by British painter Margaret Sarah Carpenter (1836)",
+                  "type": "h3",
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "animateIn": false,
+              "animateOut": false,
+              "children": Array [
+                <img
+                  alt=""
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/220px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg"
+                />,
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="div"
+                >
+                  <h3>
+                    Lovelace's diagram from Note G, the first published computer algorithm
+                  </h3>
+                </CarouselCaption>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "",
+                  "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/220px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "carousel-caption",
+                  "children": <h3>
+                    Lovelace's diagram from Note G, the first published computer algorithm
+                  </h3>,
+                  "componentClass": "div",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Lovelace's diagram from Note G, the first published computer algorithm",
+                  },
+                  "ref": null,
+                  "rendered": "Lovelace's diagram from Note G, the first published computer algorithm",
+                  "type": "h3",
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="col-xs-12"
+        >
+          <Carousel
+            activeIndex={0}
+            bsClass="carousel"
+            controls={true}
+            direction={null}
+            indicators={true}
+            interval={5000}
+            nextIcon={
+              <Glyphicon
+                bsClass="glyphicon"
+                glyph="chevron-right"
+              />
+            }
+            nextLabel="Next"
+            onSelect={[Function]}
+            pauseOnHover={true}
+            prevIcon={
+              <Glyphicon
+                bsClass="glyphicon"
+                glyph="chevron-left"
+              />
+            }
+            prevLabel="Previous"
+            slide={true}
+            wrap={true}
+          >
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <img
+                alt="Ada, Countess of Lovelace, 1840"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/220px-Ada_Lovelace_portrait.jpg"
+              />
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="div"
+              >
+                <h3>
+                  Ada, Countess of Lovelace, 1840
+                </h3>
+              </CarouselCaption>
+            </CarouselItem>
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <img
+                alt="Ada, aged four"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Miniature_of_Ada_Byron.jpg/220px-Miniature_of_Ada_Byron.jpg"
+              />
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="div"
+              >
+                <h3>
+                  Ada, aged four
+                </h3>
+              </CarouselCaption>
+            </CarouselItem>
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <img
+                alt=""
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ada_Byron_aged_seventeen_%281832%29.jpg/170px-Ada_Byron_aged_seventeen_%281832%29.jpg"
+              />
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="div"
+              >
+                <h3>
+                  Ada, aged seventeen, 1832
+                </h3>
+              </CarouselCaption>
+            </CarouselItem>
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <img
+                alt=""
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ada_Lovelace_in_1852.jpg/170px-Ada_Lovelace_in_1852.jpg"
+              />
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="div"
+              >
+                <h3>
+                  Painting of Ada Lovelace at a piano in 1852 by Henry Phillips.
+                </h3>
+              </CarouselCaption>
+            </CarouselItem>
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <img
+                alt=""
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ada_Lovelace.jpg/170px-Ada_Lovelace.jpg"
+              />
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="div"
+              >
+                <h3>
+                  Portrait of Ada by British painter Margaret Sarah Carpenter (1836)
+                </h3>
+              </CarouselCaption>
+            </CarouselItem>
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <img
+                alt=""
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/220px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg"
+              />
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="div"
+              >
+                <h3>
+                  Lovelace's diagram from Note G, the first published computer algorithm
+                </h3>
+              </CarouselCaption>
+            </CarouselItem>
+          </Carousel>
+        </div>,
+        "className": "row",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Carousel
+            activeIndex={0}
+            bsClass="carousel"
+            controls={true}
+            direction={null}
+            indicators={true}
+            interval={5000}
+            nextIcon={
+              <Glyphicon
+                bsClass="glyphicon"
+                glyph="chevron-right"
+              />
+            }
+            nextLabel="Next"
+            onSelect={[Function]}
+            pauseOnHover={true}
+            prevIcon={
+              <Glyphicon
+                bsClass="glyphicon"
+                glyph="chevron-left"
+              />
+            }
+            prevLabel="Previous"
+            slide={true}
+            wrap={true}
+          >
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <img
+                alt="Ada, Countess of Lovelace, 1840"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/220px-Ada_Lovelace_portrait.jpg"
+              />
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="div"
+              >
+                <h3>
+                  Ada, Countess of Lovelace, 1840
+                </h3>
+              </CarouselCaption>
+            </CarouselItem>
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <img
+                alt="Ada, aged four"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Miniature_of_Ada_Byron.jpg/220px-Miniature_of_Ada_Byron.jpg"
+              />
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="div"
+              >
+                <h3>
+                  Ada, aged four
+                </h3>
+              </CarouselCaption>
+            </CarouselItem>
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <img
+                alt=""
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ada_Byron_aged_seventeen_%281832%29.jpg/170px-Ada_Byron_aged_seventeen_%281832%29.jpg"
+              />
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="div"
+              >
+                <h3>
+                  Ada, aged seventeen, 1832
+                </h3>
+              </CarouselCaption>
+            </CarouselItem>
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <img
+                alt=""
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ada_Lovelace_in_1852.jpg/170px-Ada_Lovelace_in_1852.jpg"
+              />
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="div"
+              >
+                <h3>
+                  Painting of Ada Lovelace at a piano in 1852 by Henry Phillips.
+                </h3>
+              </CarouselCaption>
+            </CarouselItem>
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <img
+                alt=""
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ada_Lovelace.jpg/170px-Ada_Lovelace.jpg"
+              />
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="div"
+              >
+                <h3>
+                  Portrait of Ada by British painter Margaret Sarah Carpenter (1836)
+                </h3>
+              </CarouselCaption>
+            </CarouselItem>
+            <CarouselItem
+              active={false}
+              animateIn={false}
+              animateOut={false}
+            >
+              <img
+                alt=""
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/220px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg"
+              />
+              <CarouselCaption
+                bsClass="carousel-caption"
+                componentClass="div"
+              >
+                <h3>
+                  Lovelace's diagram from Note G, the first published computer algorithm
+                </h3>
+              </CarouselCaption>
+            </CarouselItem>
+          </Carousel>,
+          "className": "col-xs-12",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "activeIndex": 0,
+            "bsClass": "carousel",
+            "children": Array [
+              <CarouselItem
+                active={false}
+                animateIn={false}
+                animateOut={false}
+              >
+                <img
+                  alt="Ada, Countess of Lovelace, 1840"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/220px-Ada_Lovelace_portrait.jpg"
+                />
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="div"
+                >
+                  <h3>
+                    Ada, Countess of Lovelace, 1840
+                  </h3>
+                </CarouselCaption>
+              </CarouselItem>,
+              <CarouselItem
+                active={false}
+                animateIn={false}
+                animateOut={false}
+              >
+                <img
+                  alt="Ada, aged four"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Miniature_of_Ada_Byron.jpg/220px-Miniature_of_Ada_Byron.jpg"
+                />
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="div"
+                >
+                  <h3>
+                    Ada, aged four
+                  </h3>
+                </CarouselCaption>
+              </CarouselItem>,
+              <CarouselItem
+                active={false}
+                animateIn={false}
+                animateOut={false}
+              >
+                <img
+                  alt=""
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ada_Byron_aged_seventeen_%281832%29.jpg/170px-Ada_Byron_aged_seventeen_%281832%29.jpg"
+                />
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="div"
+                >
+                  <h3>
+                    Ada, aged seventeen, 1832
+                  </h3>
+                </CarouselCaption>
+              </CarouselItem>,
+              <CarouselItem
+                active={false}
+                animateIn={false}
+                animateOut={false}
+              >
+                <img
+                  alt=""
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ada_Lovelace_in_1852.jpg/170px-Ada_Lovelace_in_1852.jpg"
+                />
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="div"
+                >
+                  <h3>
+                    Painting of Ada Lovelace at a piano in 1852 by Henry Phillips.
+                  </h3>
+                </CarouselCaption>
+              </CarouselItem>,
+              <CarouselItem
+                active={false}
+                animateIn={false}
+                animateOut={false}
+              >
+                <img
+                  alt=""
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ada_Lovelace.jpg/170px-Ada_Lovelace.jpg"
+                />
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="div"
+                >
+                  <h3>
+                    Portrait of Ada by British painter Margaret Sarah Carpenter (1836)
+                  </h3>
+                </CarouselCaption>
+              </CarouselItem>,
+              <CarouselItem
+                active={false}
+                animateIn={false}
+                animateOut={false}
+              >
+                <img
+                  alt=""
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/220px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg"
+                />
+                <CarouselCaption
+                  bsClass="carousel-caption"
+                  componentClass="div"
+                >
+                  <h3>
+                    Lovelace's diagram from Note G, the first published computer algorithm
+                  </h3>
+                </CarouselCaption>
+              </CarouselItem>,
+            ],
+            "controls": true,
+            "direction": null,
+            "indicators": true,
+            "interval": 5000,
+            "nextIcon": <Glyphicon
+              bsClass="glyphicon"
+              glyph="chevron-right"
+            />,
+            "nextLabel": "Next",
+            "onSelect": [Function],
+            "pauseOnHover": true,
+            "prevIcon": <Glyphicon
+              bsClass="glyphicon"
+              glyph="chevron-left"
+            />,
+            "prevLabel": "Previous",
+            "slide": true,
+            "wrap": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "animateIn": false,
+                "animateOut": false,
+                "children": Array [
+                  <img
+                    alt="Ada, Countess of Lovelace, 1840"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/220px-Ada_Lovelace_portrait.jpg"
+                  />,
+                  <CarouselCaption
+                    bsClass="carousel-caption"
+                    componentClass="div"
+                  >
+                    <h3>
+                      Ada, Countess of Lovelace, 1840
+                    </h3>
+                  </CarouselCaption>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "Ada, Countess of Lovelace, 1840",
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/220px-Ada_Lovelace_portrait.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "carousel-caption",
+                    "children": <h3>
+                      Ada, Countess of Lovelace, 1840
+                    </h3>,
+                    "componentClass": "div",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Ada, Countess of Lovelace, 1840",
+                    },
+                    "ref": null,
+                    "rendered": "Ada, Countess of Lovelace, 1840",
+                    "type": "h3",
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "animateIn": false,
+                "animateOut": false,
+                "children": Array [
+                  <img
+                    alt="Ada, aged four"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Miniature_of_Ada_Byron.jpg/220px-Miniature_of_Ada_Byron.jpg"
+                  />,
+                  <CarouselCaption
+                    bsClass="carousel-caption"
+                    componentClass="div"
+                  >
+                    <h3>
+                      Ada, aged four
+                    </h3>
+                  </CarouselCaption>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "Ada, aged four",
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Miniature_of_Ada_Byron.jpg/220px-Miniature_of_Ada_Byron.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "carousel-caption",
+                    "children": <h3>
+                      Ada, aged four
+                    </h3>,
+                    "componentClass": "div",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Ada, aged four",
+                    },
+                    "ref": null,
+                    "rendered": "Ada, aged four",
+                    "type": "h3",
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "animateIn": false,
+                "animateOut": false,
+                "children": Array [
+                  <img
+                    alt=""
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ada_Byron_aged_seventeen_%281832%29.jpg/170px-Ada_Byron_aged_seventeen_%281832%29.jpg"
+                  />,
+                  <CarouselCaption
+                    bsClass="carousel-caption"
+                    componentClass="div"
+                  >
+                    <h3>
+                      Ada, aged seventeen, 1832
+                    </h3>
+                  </CarouselCaption>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "",
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ada_Byron_aged_seventeen_%281832%29.jpg/170px-Ada_Byron_aged_seventeen_%281832%29.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "carousel-caption",
+                    "children": <h3>
+                      Ada, aged seventeen, 1832
+                    </h3>,
+                    "componentClass": "div",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Ada, aged seventeen, 1832",
+                    },
+                    "ref": null,
+                    "rendered": "Ada, aged seventeen, 1832",
+                    "type": "h3",
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "animateIn": false,
+                "animateOut": false,
+                "children": Array [
+                  <img
+                    alt=""
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ada_Lovelace_in_1852.jpg/170px-Ada_Lovelace_in_1852.jpg"
+                  />,
+                  <CarouselCaption
+                    bsClass="carousel-caption"
+                    componentClass="div"
+                  >
+                    <h3>
+                      Painting of Ada Lovelace at a piano in 1852 by Henry Phillips.
+                    </h3>
+                  </CarouselCaption>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "",
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ada_Lovelace_in_1852.jpg/170px-Ada_Lovelace_in_1852.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "carousel-caption",
+                    "children": <h3>
+                      Painting of Ada Lovelace at a piano in 1852 by Henry Phillips.
+                    </h3>,
+                    "componentClass": "div",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Painting of Ada Lovelace at a piano in 1852 by Henry Phillips.",
+                    },
+                    "ref": null,
+                    "rendered": "Painting of Ada Lovelace at a piano in 1852 by Henry Phillips.",
+                    "type": "h3",
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "animateIn": false,
+                "animateOut": false,
+                "children": Array [
+                  <img
+                    alt=""
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ada_Lovelace.jpg/170px-Ada_Lovelace.jpg"
+                  />,
+                  <CarouselCaption
+                    bsClass="carousel-caption"
+                    componentClass="div"
+                  >
+                    <h3>
+                      Portrait of Ada by British painter Margaret Sarah Carpenter (1836)
+                    </h3>
+                  </CarouselCaption>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "",
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ada_Lovelace.jpg/170px-Ada_Lovelace.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "carousel-caption",
+                    "children": <h3>
+                      Portrait of Ada by British painter Margaret Sarah Carpenter (1836)
+                    </h3>,
+                    "componentClass": "div",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Portrait of Ada by British painter Margaret Sarah Carpenter (1836)",
+                    },
+                    "ref": null,
+                    "rendered": "Portrait of Ada by British painter Margaret Sarah Carpenter (1836)",
+                    "type": "h3",
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "animateIn": false,
+                "animateOut": false,
+                "children": Array [
+                  <img
+                    alt=""
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/220px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg"
+                  />,
+                  <CarouselCaption
+                    bsClass="carousel-caption"
+                    componentClass="div"
+                  >
+                    <h3>
+                      Lovelace's diagram from Note G, the first published computer algorithm
+                    </h3>
+                  </CarouselCaption>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "",
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/220px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "carousel-caption",
+                    "children": <h3>
+                      Lovelace's diagram from Note G, the first published computer algorithm
+                    </h3>,
+                    "componentClass": "div",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Lovelace's diagram from Note G, the first published computer algorithm",
+                    },
+                    "ref": null,
+                    "rendered": "Lovelace's diagram from Note G, the first published computer algorithm",
+                    "type": "h3",
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
