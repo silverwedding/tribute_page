@@ -4,7 +4,6 @@ import Gallery from './Gallery';
 
 describe('Gallery', () => {
   const gallery = shallow(<Gallery />);
-  const mockHandleSelect = jest.fn();
 
   it('renders properly', () => {
     expect(gallery).toMatchSnapshot();
@@ -16,6 +15,4 @@ describe('Gallery', () => {
       direction: null
     });
   });
-
-
 });
