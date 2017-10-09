@@ -7,7 +7,8 @@ module.exports = {
     ],
     "env": {
         "browser": true,
-        "node": true
+        "node": true,
+        "jest": true
     },
     "parser": "babel-eslint",
     "parserOptions": {

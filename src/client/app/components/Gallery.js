@@ -14,7 +14,6 @@ class Gallery extends Component {
   }
 
   handleSelect (selectedIndex, e) {
-    console.log('handleselct');
     this.setState({
       index: selectedIndex,
       direction: e.direction
