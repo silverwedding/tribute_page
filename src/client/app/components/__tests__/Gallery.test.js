@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Gallery from './Gallery';
+import Gallery from '../Gallery';
 
 describe('Gallery', () => {
   const gallery = shallow(<Gallery />);

@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Events from './Events';
+import Events from '../Events';
 
 describe('Events', () => {
   const events = shallow(<Events />);
