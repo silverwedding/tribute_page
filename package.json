@@ -58,6 +58,8 @@
     ]
   },
   "dependencies": {
+    "@types/react": "^16.0.25",
+    "@types/react-dom": "^16.0.3",
     "axios": "^0.16.2",
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^3.3.7",
@@ -73,6 +75,7 @@
     "redux-thunk": "^2.1.0"
   },
   "devDependencies": {
+    "awesome-typescript-loader": "^3.4.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^6.1.2",
     "babel-jest": "^21.2.0",
@@ -96,7 +99,11 @@
     "react-test-renderer": "16",
     "redux-devtools": "^3.4.0",
     "sass-loader": "^6.0.6",
+    "source-map-loader": "^0.2.3",
     "style-loader": "^0.13.1",
+    "tslint": "^5.8.0",
+    "tslint-react": "^3.2.0",
+    "typescript": "^2.6.1",
     "webpack": "^3.6.0",
     "webpack-clean-obsolete-chunks": "^0.2.0",
     "webpack-cleanup-plugin": "^0.5.1",

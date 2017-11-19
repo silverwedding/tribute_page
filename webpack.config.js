@@ -12,7 +12,7 @@ const WebpackCleanupPlugin = require('webpack-cleanup-plugin');
 
 module.exports = {
   entry: {
-    javascript: APP_DIR + '/index.js'
+    javascript: APP_DIR + '/index.tsx'
   },
   output: {
     path: BUILD_DIR,
@@ -22,22 +22,24 @@ module.exports = {
   },
   module: {
     loaders: [{
+      enforce: 'pre',
       test: /\.js$/,
       include: APP_DIR,
       exclude: /node_modules/,
-      loader: 'babel-loader'
+      loader: 'source-map-loader'
     }, {
-      test: /\.jsx$/,
+      test: /\.tsx?$/,
       include: APP_DIR,
       exclude: /node_modules/,
-      loader: 'babel-loader'
+      loader: 'awesome-typescript-loader'
     }, {
       test: /\.scss$/,
       loaders: ['style-loader', 'css-loader', 'sass-loader']
     }]
   },
+  devtool: 'source-map',
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.ts', '.tsx', '.js', 'jsx', '.json']
   },
     // Configure webpack to import React when it is referenced
     // in a module that doesn't explicitly import it

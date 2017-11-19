@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "build",
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": false,
+    "inlineSourceMap": false,
+    "inlineSources": false,
+    "experimentalDecorators": false,
+    "noUnusedParameters": false,
+    "noUnusedLocals": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "lib": ["es2017", "dom"]
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "typings/main",
+    "typings/main.d.ts"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "useCache": true,
+    "useBabel": true,
+    "transpileOnly": true
+  }
+}

@@ -1,33 +1,36 @@
-import React, { Component } from 'react';
+import * as React from 'react';
 import { Carousel } from 'react-bootstrap';
-import images from '../data/images.json';
 
-class Gallery extends Component {
-  constructor () {
-    super();
+const images = require('../data/images.json');
+
+class Gallery extends React.Component {
+  constructor(props) {
+    super(props);
     this.state = {
       index: 0,
-      direction: null
+      direction: null,
     };
 
     this.handleSelect = this.handleSelect.bind(this);
   }
 
-  handleSelect (selectedIndex, e) {
+  private handleSelect(selectedIndex, e) {
     this.setState({
       index: selectedIndex,
-      direction: e.direction
+      direction: e.direction,
     });
   }
 
-  render () {
+  public render() {
     const carouselItems = images.images.map((item, i) =>
-      <Carousel.Item key={i}>
-        <img src={item.src} alt={item.alt} />
-        <Carousel.Caption>
-          <h3>{item.caption}</h3>
-        </Carousel.Caption>
-      </Carousel.Item>
+      (
+        <Carousel.Item key={i}>
+          <img src={item.src} alt={item.alt} />
+          <Carousel.Caption>
+            <h3>{item.caption}</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+      ),
     );
 
     return (

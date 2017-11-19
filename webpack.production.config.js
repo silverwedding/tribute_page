@@ -6,29 +6,30 @@ const BUILD_DIR = path.resolve(__dirname, 'src/client/public');
 const APP_DIR = path.resolve(__dirname, 'src/client/app');
 
 module.exports = {
-  entry: APP_DIR + '/app.js',
+  entry: APP_DIR + '/index.tsx',
   output: {
     path: BUILD_DIR,
     filename: 'app.bundle.js'
   },
   module: {
     loaders: [{
+      enforce: 'pre',
       test: /\.js$/,
       include: APP_DIR,
       exclude: /node_modules/,
       loader: 'babel-loader'
     }, {
-      test: /\.jsx$/,
+      test: /\.tsx?$/,
       include: APP_DIR,
       exclude: /node_modules/,
-      loader: 'babel-loader'
+      loader: 'awesome-typescript-loader'
     }, {
       test: /\.scss$/,
-      loaders: ['style', 'css', 'sass']
+      loaders: ['style-loader', 'css-loader', 'sass-loader']
     }]
   },
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    extensions: ['.ts', '.tsx', '.js', 'jsx', '.json']
   },
   // Configure webpack to import React when it is referenced
   // in a module that doesn't explicitly import it
